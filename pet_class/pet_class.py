@@ -25,3 +25,8 @@ class Pet:
     def get_age(self):
         # Returns the value of the __age field
         return self.__age
+    
+def main():
+    # 1. Create an object of the Pet class
+    user_pet = Pet()
+
