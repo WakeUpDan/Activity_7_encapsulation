@@ -10,3 +10,6 @@ class Car:
     def accelerate(self):
         # Add 5 to the speed data attribute
         self.__speed += 5
+    def brake(self):
+        # Subtract 5 from the speed data attribute
+        self.__speed -= 5
