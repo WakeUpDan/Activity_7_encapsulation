@@ -10,3 +10,10 @@ def __init__(self, speed=SLOW, radius=5.0, color="blue", on=False):
         self.__radius = float(radius)
         self.__color = color
         self.__on = on
+
+# --- Accessor (Getter) Methods ---
+    def get_speed(self):
+        return self.__speed
+
+    def get_on(self):
+        return self.__on
