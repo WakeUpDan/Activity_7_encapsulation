@@ -13,3 +13,7 @@ class Car:
     def brake(self):
         # Subtract 5 from the speed data attribute
         self.__speed -= 5
+    def main():
+    # Design a program that creates a Car object
+    # Passing sample data for year model and make
+    my_car = Car("2024", "Toyota")
