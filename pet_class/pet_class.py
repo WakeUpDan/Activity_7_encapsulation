@@ -29,4 +29,14 @@ class Pet:
 def main():
     # 1. Create an object of the Pet class
     user_pet = Pet()
+    # 2. Prompt the user to enter the name, type, and age of their pet
+    print("Please enter your pet's details:")
+    input_name = input("Pet's Name: ")
+    input_type = input("Animal Type (e.g., Dog, Cat, Bird): ")
+    input_age = input("Pet's Age: ")
+
+    # 3. Store this data as the object's attributes using the setter methods
+    user_pet.set_name(input_name)
+    user_pet.set_animal_type(input_type)
+    user_pet.set_age(input_age)
 
