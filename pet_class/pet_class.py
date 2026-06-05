@@ -40,3 +40,14 @@ def main():
     user_pet.set_animal_type(input_type)
     user_pet.set_age(input_age)
 
+    # 4. Use the object's accessor methods to retrieve and display the data
+    print("\n--- Pet Information ---")
+    print(f"Name:        {user_pet.get_name()}")
+    print(f"Animal Type: {user_pet.get_animal_type()}")
+    print(f"Age:         {user_pet.get_age()}")
+
+
+# Execute the main program
+if __name__ == "__main__":
+    main()
+
