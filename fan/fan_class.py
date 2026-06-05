@@ -31,3 +31,10 @@ def __init__(self, speed=SLOW, radius=5.0, color="blue", on=False):
 
     def set_on(self, on):
         self.__on = on
+    
+    def set_radius(self, radius):
+        self.__radius = float(radius)
+
+    def set_color(self, color):
+        self.__color = color
+
