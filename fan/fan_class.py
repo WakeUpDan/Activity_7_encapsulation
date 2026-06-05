@@ -3,3 +3,10 @@ class Fan:
     SLOW = 1
     MEDIUM = 2
     FAST = 3
+
+def __init__(self, speed=SLOW, radius=5.0, color="blue", on=False):
+        # Private data fields using __ prefix for encapsulation
+        self.__speed = speed
+        self.__radius = float(radius)
+        self.__color = color
+        self.__on = on
