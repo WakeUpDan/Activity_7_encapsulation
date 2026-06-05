@@ -23,9 +23,13 @@ def main():
         my_car.accelerate()
         # After each call, get the current speed of the car and display it
         print(f"Current speed: {my_car.get_speed()}")
-        print("\n--- Braking ---")
+    print("\n--- Braking ---")
     # Call the brake method five times
     for i in range(5):
         my_car.brake()
         # After each call, get the current speed of the car and display it
         print(f"Current speed: {my_car.get_speed()}")
+
+# Execute the main program
+if __name__ == "__main__":
+    main()
