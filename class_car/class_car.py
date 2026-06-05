@@ -13,7 +13,14 @@ class Car:
     def brake(self):
         # Subtract 5 from the speed data attribute
         self.__speed -= 5
-    def main():
+def main():
     # Design a program that creates a Car object
     # Passing sample data for year model and make
     my_car = Car("2024", "Toyota")
+    print("--- Accelerating ---")
+    # Call the accelerate method five times
+    for i in range(5):
+        my_car.accelerate()
+        # After each call, get the current speed of the car and display it
+        print(f"Current speed: {my_car.get_speed()}")
+
