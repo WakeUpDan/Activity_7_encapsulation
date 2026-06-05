@@ -17,3 +17,10 @@ def __init__(self, speed=SLOW, radius=5.0, color="blue", on=False):
 
     def get_on(self):
         return self.__on
+    
+    def get_radius(self):
+        return self.__radius
+
+    def get_color(self):
+        return self.__color
+
