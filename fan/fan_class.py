@@ -42,4 +42,6 @@ def TestFan():
     # 1. Create first Fan object
     # Assign maximum speed, radius 10, color yellow, and turn it on.
     fan1 = Fan(speed=Fan.FAST, radius=10.0, color="yellow", on=True)
-
+    # 2. Create second Fan object
+    # Assign medium speed, radius 5, color blue, and turn it off.
+    fan2 = Fan(speed=Fan.MEDIUM, radius=5.0, color="blue", on=False)
