@@ -38,3 +38,8 @@ def __init__(self, speed=SLOW, radius=5.0, color="blue", on=False):
     def set_color(self, color):
         self.__color = color
 
+def TestFan():
+    # 1. Create first Fan object
+    # Assign maximum speed, radius 10, color yellow, and turn it on.
+    fan1 = Fan(speed=Fan.FAST, radius=10.0, color="yellow", on=True)
+
