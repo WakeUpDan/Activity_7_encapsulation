@@ -7,3 +7,6 @@ class Car:
     def get_speed(self):
         # Return the current speed
         return self.__speed
+    def accelerate(self):
+        # Add 5 to the speed data attribute
+        self.__speed += 5
