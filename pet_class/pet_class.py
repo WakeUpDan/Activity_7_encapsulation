@@ -8,4 +8,6 @@ class Pet:
     def set_name(self, name):
         # Assigns a value to the __name field
         self.__name = name 
-
+    def set_animal_type(self, animal_type):
+        # Assigns a value to the __animal_type field
+        self.__animal_type = animal_type
