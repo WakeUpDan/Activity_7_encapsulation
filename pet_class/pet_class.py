@@ -19,3 +19,6 @@ class Pet:
     def get_name(self):
         # Returns the value of the __name field
         return self.__name
+    def get_animal_type(self):
+        # Returns the value of the __animal_type field
+        return self.__animal_type
