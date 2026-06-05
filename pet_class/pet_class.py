@@ -14,3 +14,8 @@ class Pet:
     def set_age(self, age):
         # Assigns a value to the __age field
         self.__age = age
+
+# --- Accessor (Getter) Methods ---
+    def get_name(self):
+        # Returns the value of the __name field
+        return self.__name
