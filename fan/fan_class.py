@@ -24,3 +24,10 @@ def __init__(self, speed=SLOW, radius=5.0, color="blue", on=False):
     def get_color(self):
         return self.__color
 
+
+# --- Mutator (Setter) Methods ---
+    def set_speed(self, speed):
+        self.__speed = speed
+
+    def set_on(self, on):
+        self.__on = on
