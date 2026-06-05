@@ -3,8 +3,8 @@ class Fan:
     SLOW = 1
     MEDIUM = 2
     FAST = 3
-
-def __init__(self, speed=SLOW, radius=5.0, color="blue", on=False):
+    
+    def __init__(self, speed=SLOW, radius=5.0, color="blue", on=False):
         # Private data fields using __ prefix for encapsulation
         self.__speed = speed
         self.__radius = float(radius)
@@ -45,3 +45,20 @@ def TestFan():
     # 2. Create second Fan object
     # Assign medium speed, radius 5, color blue, and turn it off.
     fan2 = Fan(speed=Fan.MEDIUM, radius=5.0, color="blue", on=False)
+
+# 3. Display properties using getter methods
+    print("--- Fan 1 Properties ---")
+    print(f"Speed:  {fan1.get_speed()}")
+    print(f"Radius: {fan1.get_radius()}")
+    print(f"Color:  {fan1.get_color()}")
+    print(f"Is On:  {fan1.get_on()}\n")
+
+    print("--- Fan 2 Properties ---")
+    print(f"Speed:  {fan2.get_speed()}")
+    print(f"Radius: {fan2.get_radius()}")
+    print(f"Color:  {fan2.get_color()}")
+    print(f"Is On:  {fan2.get_on()}")
+
+# Execute the test program
+if __name__ == "__main__":
+    TestFan()
