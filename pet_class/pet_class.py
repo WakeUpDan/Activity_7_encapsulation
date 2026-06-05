@@ -11,3 +11,6 @@ class Pet:
     def set_animal_type(self, animal_type):
         # Assigns a value to the __animal_type field
         self.__animal_type = animal_type
+    def set_age(self, age):
+        # Assigns a value to the __age field
+        self.__age = age
