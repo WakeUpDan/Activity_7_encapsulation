@@ -22,3 +22,6 @@ class Pet:
     def get_animal_type(self):
         # Returns the value of the __animal_type field
         return self.__animal_type
+    def get_age(self):
+        # Returns the value of the __age field
+        return self.__age
